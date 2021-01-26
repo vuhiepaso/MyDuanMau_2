@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Assigment-MOB2041"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.add_User"></activity>
+        <activity android:name=".Activity.rePass" />
+        <activity android:name=".Activity.User_account" />
+        <activity android:name=".LoginScreen" />
+        <activity android:name=".SignUpScreen" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.TheLoaiActivity" />
+        <activity android:name=".Activity.HoaDonChiTietActivity" />
+        <activity android:name=".Activity.HoaDonDetailActivity" />
+        <activity android:name=".Activity.ListBanChayActivity" />
+        <activity android:name=".Activity.ListHoaDonActivity" />
+        <activity android:name=".Activity.ListSachActivity" />
+        <activity android:name=".Activity.ListThongKeActivity" />
+        <activity android:name=".Activity.SachDetailActivity" />
+        <activity android:name=".Activity.ThemHoaDonActivity" />
+        <activity android:name=".Activity.ThemSachActivity" />
+        <activity android:name=".Activity.TheLoaiDetailActivity" />
+        <activity android:name=".Activity.ListTheLoaiActivity" />
+        <activity android:name=".LoadingScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
